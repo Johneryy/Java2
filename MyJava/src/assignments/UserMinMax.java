@@ -8,7 +8,7 @@ public class UserMinMax {
         int large = 0;
         int num;
 
-        System.out.println("enter the number");
+        System.out.println("enter the numbers");
 
         Scanner input = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class UserMinMax {
             if (num > large) {
                 large = num;
             }
-            System.out.println("the largest is :" + large);
+            System.out.println("the largest is : " + large);
 
             int smallest = Integer.MAX_VALUE;
             for (; i < n; i++) {

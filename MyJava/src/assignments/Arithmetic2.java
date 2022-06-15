@@ -11,7 +11,7 @@ public class Arithmetic2 {
         System.out.print("Enter First Number: ");
         int firstNum = InputNum.nextInt();
 
-        System.out.print("Enter Second Number: ");
+        System.out.print("Enter Second Numb  er: ");
         int secondNum = InputNum.nextInt();
 
         System.out.print("Enter Third Number: ");

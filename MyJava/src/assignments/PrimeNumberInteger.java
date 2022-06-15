@@ -7,18 +7,23 @@ public class PrimeNumberInteger {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter positive integer");
+        System.out.print("Enter positive integer:");
 
         int num = input.nextInt();
 
-        if (num < 1)
+        int number = 0;
+        int factors = 0;
 
-            System.out.print("Enter a number greater than 1" + "Perform the program again");
+        for(int i = 1; i<=number; i  ++) {
+            if(number%i == 0) {
+                factors = factors+1;
+            }
+        }
 
-        else if (num == 2)
-            System.out.print("It is a PrimeNumber");
-
-        else if (num % 2 == 0)
-            System.out.print("It is not a PrimeNumber");
+        if (factors==2) {
+            System.out.println(number+ "is a prime number ");
+        }else{
+            System.out.println(number+ "is not a prime number");
+        }
     }
 }

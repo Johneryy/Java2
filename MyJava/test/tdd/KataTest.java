@@ -50,9 +50,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
             int userScore = buba.bubaTestForPassAndFail(55);
 
-            assertEquals("Pass",userScore );
+            assertEquals("Pass", userScore);
 
         }
+
+        @Test
+        public void factorsTest() {
+            int factors = Kata.noOfFactorsOf(5);
+            assertEquals(2,factors);
+
+            factors = Kata.noOfFactorsOf(10);
+            assertEquals(4,factors);
+        }
+
+
     }
-
-

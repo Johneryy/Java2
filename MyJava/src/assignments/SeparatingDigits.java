@@ -15,11 +15,11 @@ public class SeparatingDigits {
         char d = Input.next().charAt(3);
         char e = Input.next().charAt(4);
 
-//        char A = a;
-//        char B = b;
-//        char C = c;
-//        char D = d;
-//        char E = e;
+        char A = a;
+        char B = b;
+        char C = c;
+        char D = d;
+        char E = e;
 
 
         System.out.printf("%c   %c   %c   %c   %c", a, b, c, d, e);

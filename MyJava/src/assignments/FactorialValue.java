@@ -2,11 +2,11 @@ package assignments;
 
 public class FactorialValue {
     public static void main(String[] args) {
-        int i,factorial = 1;
+        int x,factorial = 1;
         int number =3;
-        for(i = 1; i < number; i++) {
+        for(x = 1; x < number; x++) {
 
-            factorial = factorial * i;
+            factorial = factorial * x;
         }
         System.out.println("Factorial of " + number + " is : " + factorial);
     }

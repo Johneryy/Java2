@@ -48,6 +48,7 @@ public class AccountTest {
   public void withdrawAfterDeposit() {
     Account johnnyAccount = new Account();
     johnnyAccount.deposit(10_000);
+
     johnnyAccount.withdraw(5_000);
     assertEquals(5000, johnnyAccount.getBalance());
   }

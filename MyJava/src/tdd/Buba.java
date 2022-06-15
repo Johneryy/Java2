@@ -10,16 +10,14 @@ public class Buba {
         Scanner score = new Scanner(System.in);
 
         System.out.println("Enter your score");
-
         int userScore = score.nextInt();
-        System.out.println();
+
         if(userScore >=55) {
             System.out.println("Pass");
         }
-        if(userScore <=55);{
+        if(userScore < 55) {
             System.out.println("Fail");
 
         }
-
     }
 }
